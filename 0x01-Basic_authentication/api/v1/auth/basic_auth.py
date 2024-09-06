@@ -3,6 +3,7 @@
 from .auth import Auth
 from typing import TypeVar
 import base64
+from models.user import User
 
 
 class BasicAuth(Auth):
